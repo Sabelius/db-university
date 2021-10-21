@@ -1,3 +1,4 @@
+
 1)   SELECT COUNT(`id`) AS 'students_number', YEAR(`enrolment_date`) FROM `students` GROUP BY YEAR(`enrolment_date`);
 
 2)   SELECT COUNT(`id`) AS 'teachers_number', `office_address` FROM `teachers` GROUP BY `office_address`;
